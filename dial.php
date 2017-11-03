@@ -1,6 +1,6 @@
 <?php
     require 'vendor/autoload.php';
-    use Plivo\RestAPI;
+    use Plivo\XML\Response;
     $auth_id = "MAZWYZNZLHMMM1YWYXZG";
     $auth_token = "MDk5MjM0N2UzMDg5Zjk3NWExMjdhNjY0MWNmNTM2";
     $p = new RestAPI($auth_id, $auth_token);
@@ -22,4 +22,5 @@
     # Make an outbound call and print the response
     $response = $p->make_call($params);
     print_r ($response);
+echo($response -> toXML());
 ?>
