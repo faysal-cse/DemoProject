@@ -1,5 +1,5 @@
 <Response>
-<Dial callerId="none">
-  <User>8801927018443</User>
+<Dial>
+  <Number>8801927018443</Number>
   </Dial>
 </Response>
