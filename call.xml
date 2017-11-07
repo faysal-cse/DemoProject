@@ -1,9 +1,3 @@
 <Response>
-    <Speak language="en-GB">
-Thank you for calling Guru Graphics Limited. We are not available at the moment please leave a message.
-</Speak>
-<!--     <Dial callerId="+44203808618">
-        <User>sip:arif171101122402@phone.plivo.com</User>
-        <User>sip:faysal171101063324@phone.plivo.com</User>
-    </Dial> -->
+     <Hangup reason="rejected"> </Hangup>
 </Response>
