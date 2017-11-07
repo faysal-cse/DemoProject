@@ -1,6 +1,7 @@
 <Response>
-    <Dial callerId="+44203808618">
+    <Speak>Thanks for calling</Speak>
+<!--     <Dial callerId="+44203808618">
         <User>sip:arif171101122402@phone.plivo.com</User>
         <User>sip:faysal171101063324@phone.plivo.com</User>
-    </Dial>
+    </Dial> -->
 </Response>
